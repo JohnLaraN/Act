@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<Libro> Libros = new ArrayList<>();
+
         int decision = 0;
 
         decision = Integer.parseInt(JOptionPane.showInputDialog("Que deseas realizar?: " +
