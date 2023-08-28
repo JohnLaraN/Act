@@ -22,15 +22,7 @@ public class Main {
                 break;
         }
     }
-    private static int suma(int n1, int n2){
-        return n1+n2;
-    }
-    private static int suma(int n1, int n2, int n3){
-        return suma(suma(n1, n2),n3);
-    }
-    private static int suma(int n1, int n2, int n3, int n4){
-        return suma(suma(n1, n2,n3), n4);
-    }
+
 
 
 }
