@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,12 +16,9 @@ public class Main {
     milibro1 = new Libro();
     milibro1.setId(3);
     lista_Libros.add(milibro1);
-
-
-
-        for (Libro libroActual: lista_Libros) {
-            System.out.println("Id: " + libroActual.getId());
-        }
+    for (Libro libroActual: lista_Libros) {
+        System.out.println("Id: " + libroActual.getId());
+    }
 
 
     }
